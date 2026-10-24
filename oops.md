@@ -44,8 +44,7 @@ print(my_car.describe())          # -> "Toyota going 80 km/h"
 
 ## 1. Encapsulation
 
-**Idea:** Bundle data and the methods that work on it inside one object, and control
-access to that data. You expose a safe interface and hide the internal details.
+**Idea:** Encapsulation means bundling data (variables) and methods (functions) into a single unit (class) and controlling access to that data.
 
 - In Python, a leading underscore (`_name`) signals "internal, don't touch."
 - A double underscore (`__name`) triggers name-mangling for stronger hiding.
