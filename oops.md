@@ -28,16 +28,16 @@ The four pillars:
 
 ```python
 class Car:
-    def __init__(self, brand, speed):
-        self.brand = brand        # attribute
-        self.speed = speed        # attribute
+    def __init__(self, brand, speed):  # Special method
+        self.brand = brand             # Attribute
+        self.speed = speed             # Attribute
 
-    def describe(self):           # method
+    def describe(self):                 # Regular method
         return f"{self.brand} going {self.speed} km/h"
 
-my_car = Car("Toyota", 80)        # object
-print(my_car.brand)               # -> "Toyota"
-print(my_car.describe())          # -> "Toyota going 80 km/h"
+my_car = Car("Toyota", 80)              # Object
+print(my_car.brand)
+print(my_car.describe())
 ```
 
 ---
