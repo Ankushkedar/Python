@@ -27,17 +27,18 @@ The four pillars:
 - **Method** = a function that belongs to an object.
 
 ```python
-class Car:
-    def __init__(self, brand, speed):  # Special method
-        self.brand = brand             # Attribute
-        self.speed = speed             # Attribute
+class bike: # class
+  def __init__(self,model,speed,milage): #special method
+      self.model=model #attributes
+      self.speed=speed #attributes
+      self.milage=milage #attributes
 
-    def describe(self):                 # Regular method
-        return f"{self.brand} going {self.speed} km/h"
+  def explain(self): # Regular method
+    return f"{self.model} having speed {self.speed} & milage {self.milage}"
 
-my_car = Car("Toyota", 80)              # Object
-print(my_car.brand)
-print(my_car.describe())
+my_bike=bike("Unicorn", 80, 60) # object or instance of class
+print(my_bike.model)
+print(my_bike.explain())
 ```
 
 ---
